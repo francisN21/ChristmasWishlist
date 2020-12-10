@@ -13,7 +13,7 @@ let name = {
 
 function welcome() {
     if(cache){
-        notif.innerHTML = `Welcome back ${cache}`;
+        notif.innerHTML = `Welcome back ${cache}!`;
         loc1.innerHTML = `My Wishlist:`;
         loc2.innerHTML = `Item1`;
     }else{
