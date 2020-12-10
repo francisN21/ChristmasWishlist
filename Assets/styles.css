@@ -6,8 +6,8 @@
 body{
     background-color: #18191A;
     /* will use this once I know how to add a dark mode toggle to regular mode. */
-    /* background-attachment: fixed; */
-    /* background-image: url("https://wallpaperaccess.com/full/449903.jpg");     */
+    background-attachment: fixed;
+    background-image: url("https://media.giphy.com/media/3o6fJdYXEvMa5ZmlI4/giphy.gif");    
 }
 input{
     color: black !important;
