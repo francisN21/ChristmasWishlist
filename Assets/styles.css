@@ -9,6 +9,9 @@ body{
     /* background-attachment: fixed; */
     /* background-image: url("https://wallpaperaccess.com/full/449903.jpg");     */
 }
+input{
+    color: black !important;
+}
 
 /* navbar settings here */
 .bd-navbar {
