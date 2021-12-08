@@ -67,13 +67,14 @@ function next(name) {
       <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSAS/ref=pd_sbs_21_2/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSAS&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">2: Bandai Hobby Mecha Collection #2 Chopper Robot Wing Model Kit</a></li>
       <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUW90/ref=pd_sbs_21_3/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUW90&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">4: Bandai Hobby Mecha Collection #4 Chopper Robot Drill Model Kit</a></li>
       <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUUBU/ref=sr_1_1?dchild=1&keywords=bandai+chopper+collection&qid=1607594064&sr=8-1" target="_blank">5: Bandai Hobby Mecha Collection #5 Chopper Robot Crane Model Kit</a></li>
+      <li><a href="https://www.amazon.com/dp/B09111CM4X/ref=cm_sw_r_fm_api_glt_fabc_dl_QVB8NY61YSHNHR6AXWK2?fbclid=IwAR0lT47Mkshr12hDcwGZ4tAHXzTz22E0ThY5i60Erx9t24Q9dfnq8rpqZeM&th=1">Knife Set</a></li>
     </ul>
     `;
   loc3.innerHTML = `Mayne's Wishlist:`;
   loc4.innerHTML = `
     <ul>
       <li>Amazon Gift Card</li>
-      <li><a href=""></a></li>
+      <li><a href="https://www.drmartens.com/us/en/p/egift-cards?fbclid=IwAR1FGnX_qlOVtyG7vbqKdzKGn40Sp5zSG7LFBgSy29cOIL-oAsrZ67R9xkE">Dr Martens gift card</a></li>
       <li><a href=""></a></li>
     </ul>
         `;
