@@ -3,32 +3,26 @@ let loc1 = document.querySelector(".r2d1");
 let loc2 = document.querySelector(".r2d2");
 let loc3 = document.querySelector(".r2d3");
 let loc4 = document.querySelector(".r2d4");
+let loc5 = document.querySelector(".r2d5");
+let loc6 = document.querySelector(".r2d6");
+let loc7 = document.querySelector(".r2d7");
+let loc8 = document.querySelector(".r2d8");
+let loc9 = document.querySelector(".r2d9");
+let loc10 = document.querySelector(".r2d10");
+let loc11 = document.querySelector(".r2d11");
+let loc12 = document.querySelector(".r2d12");
+let loc13 = document.querySelector(".r2d13");
+let loc14 = document.querySelector(".r2d14");
+let loc15 = document.querySelector(".r2d15");
+let loc16 = document.querySelector(".r216");
 let cache = JSON.parse(localStorage.getItem("Name"));
 
-let name = {
-  Name: "",
-};
-
 function welcome() {
+  let name = {
+    Name: "",
+  };
   if (cache) {
-    notif.innerHTML = `Welcome back ${cache}! Merry Christmas!`;
-    loc1.innerHTML = `Niño's Wishlist:`;
-    loc2.innerHTML = `
-        <ul>
-    <li><a href="https://www.amazon.com/gp/product/B005JABN8Y/ref=ox_sc_act_title_5?smid=A2DQM1XJZE28BS&psc=1" target="_blank">Bandai Hobby Thousand Sunny Model Ship One Piece New World Version</a></li>
-    <li><a href="https://www.amazon.com/gp/product/B082TZ7R6W/ref=ox_sc_act_title_3?smid=A19KDY3KZZXO3B&psc=1" target="_blank">BanPresto One Piece King of Artist The Monkey.D.Luffy Figure ver.1</a></li>
-    <li>Please get me the whole collection: #1-5</li>
-    <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSG2/ref=pd_sbs_21_1/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSG2&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">1: Bandai Hobby Mecha Collection #1 Chopper Robot Tank Model Kit</a></li>
-    <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSAS/ref=pd_sbs_21_2/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSAS&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">2: Bandai Hobby Mecha Collection #2 Chopper Robot Wing Model Kit</a></li>
-    <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUW90/ref=pd_sbs_21_3/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUW90&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">4: Bandai Hobby Mecha Collection #4 Chopper Robot Drill Model Kit</a></li>
-    <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUUBU/ref=sr_1_1?dchild=1&keywords=bandai+chopper+collection&qid=1607594064&sr=8-1" target="_blank">5: Bandai Hobby Mecha Collection #5 Chopper Robot Crane Model Kit</a></li>
-    </ul>
-        `;
-
-    // ==== Mayne's Wishlist ==== //
-    loc3.innerHTML = `Mayne's Wishlist:`;
-    loc4.innerHTML = `
-        `;
+    next(cache);
   } else {
     notif.innerHTML = `Welcome`;
     loc1.innerHTML = `What's your name?`;
@@ -49,7 +43,7 @@ function welcome() {
         name.Name = nameEl.value;
         console.log(typeof name.Name);
         localStorage.setItem("Name", JSON.stringify(nameEl.value));
-        next();
+        next(name.Name);
       }
     });
   }
@@ -57,22 +51,36 @@ function welcome() {
 
 welcome();
 
-function next() {
-  notif.innerHTML = `Merry Christmas ${name.Name}!`;
+function next(name) {
+  notif.innerHTML = `Merry Christmas ${name}!`;
   loc1.innerHTML = `Niño's Wishlist:`;
   loc2.innerHTML = `
     <ul>
-<li><a href="https://www.amazon.com/gp/product/B005JABN8Y/ref=ox_sc_act_title_5?smid=A2DQM1XJZE28BS&psc=1" target="_blank">Bandai Hobby Thousand Sunny Model Ship One Piece New World Version</a></li>
-<li><a href="https://www.amazon.com/gp/product/B082TZ7R6W/ref=ox_sc_act_title_3?smid=A19KDY3KZZXO3B&psc=1" target="_blank">BanPresto One Piece King of Artist The Monkey.D.Luffy Figure ver.1</a></li>
-<li>Please get me the whole collection: #1-5</li>
-<li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSG2/ref=pd_sbs_21_1/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSG2&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">1: Bandai Hobby Mecha Collection #1 Chopper Robot Tank Model Kit</a></li>
-<li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSAS/ref=pd_sbs_21_2/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSAS&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">2: Bandai Hobby Mecha Collection #2 Chopper Robot Wing Model Kit</a></li>
-<li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUW90/ref=pd_sbs_21_3/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUW90&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">4: Bandai Hobby Mecha Collection #4 Chopper Robot Drill Model Kit</a></li>
-<li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUUBU/ref=sr_1_1?dchild=1&keywords=bandai+chopper+collection&qid=1607594064&sr=8-1" target="_blank">5: Bandai Hobby Mecha Collection #5 Chopper Robot Crane Model Kit</a></li>
-</ul>
+      <li><a href="https://www.amazon.com/gp/product/B005JABN8Y/ref=ox_sc_act_title_5?smid=A2DQM1XJZE28BS&psc=1" target="_blank">Bandai Hobby Thousand Sunny Model Ship One Piece New World Version</a></li>
+      <li><a href="https://www.amazon.com/gp/product/B082TZ7R6W/ref=ox_sc_act_title_3?smid=A19KDY3KZZXO3B&psc=1" target="_blank">BanPresto One Piece King of Artist The Monkey.D.Luffy Figure ver.1</a></li>
+      <li>Please get me the whole collection: #1-5</li>
+      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSG2/ref=pd_sbs_21_1/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSG2&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">1: Bandai Hobby Mecha Collection #1 Chopper Robot Tank Model Kit</a></li>
+      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSAS/ref=pd_sbs_21_2/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSAS&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">2: Bandai Hobby Mecha Collection #2 Chopper Robot Wing Model Kit</a></li>
+      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUW90/ref=pd_sbs_21_3/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUW90&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">4: Bandai Hobby Mecha Collection #4 Chopper Robot Drill Model Kit</a></li>
+      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUUBU/ref=sr_1_1?dchild=1&keywords=bandai+chopper+collection&qid=1607594064&sr=8-1" target="_blank">5: Bandai Hobby Mecha Collection #5 Chopper Robot Crane Model Kit</a></li>
+    </ul>
     `;
   loc3.innerHTML = `Mayne's Wishlist:`;
   loc4.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
         `;
+  loc5.innerHTML = `Carlos' Wishlist:`;
+  loc6.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+        `;
+
   console.log(name);
 }
