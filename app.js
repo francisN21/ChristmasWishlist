@@ -135,10 +135,10 @@ function next(name) {
       <li><a href=""></a></li>
     </ul>
 `;
-  loc19.innerHTML = `No Name Wishlist:`;
+  loc19.innerHTML = `Mayet's Wishlist:`;
   loc20.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
+      <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
       <li><a href=""></a></li>
       <li><a href=""></a></li>
     </ul>
