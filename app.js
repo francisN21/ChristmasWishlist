@@ -99,7 +99,7 @@ function next(name) {
   loc10.innerHTML = `
     <ul>
       <li><a href="https://www.amazon.com/dp/B08D39B6TB/ref=cm_sw_r_cp_api_glt_fabc_77T410NENC4DCKJAR5AZ?_encoding=UTF8&psc=1">Miracase 4-in-1 Cell Phone Holder</a></li>
-      <li><a href=""></a></li>
+      <li><a href="https://www.us-elitegear.com/collections/salomon/products/salomon-forces-sua-sponte-mark-iii">Solomonmon Forces 8.5 Size</a></li>
       <li><a href=""></a></li>
     </ul>
                     `;
