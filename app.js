@@ -14,7 +14,11 @@ let loc12 = document.querySelector(".r2d12");
 let loc13 = document.querySelector(".r2d13");
 let loc14 = document.querySelector(".r2d14");
 let loc15 = document.querySelector(".r2d15");
-let loc16 = document.querySelector(".r216");
+let loc16 = document.querySelector(".r2d16");
+let loc17 = document.querySelector(".r2d17");
+let loc18 = document.querySelector(".r2d18");
+let loc19 = document.querySelector(".r2d19");
+let loc20 = document.querySelector(".r2d20");
 let cache = JSON.parse(localStorage.getItem("Name"));
 
 function welcome() {
@@ -68,7 +72,7 @@ function next(name) {
   loc3.innerHTML = `Mayne's Wishlist:`;
   loc4.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
+      <li>Amazon Gift Card</li>
       <li><a href=""></a></li>
       <li><a href=""></a></li>
     </ul>
@@ -81,6 +85,63 @@ function next(name) {
       <li><a href=""></a></li>
     </ul>
         `;
+  loc7.innerHTML = `Jenna Sabra's Wishlist:`;
+  loc8.innerHTML = `
+    <ul>
+      <li>Cashmere scarves</li>
+      <li>Tarot Card deck</li>
+      <li>Mala</li>
+      <li><Apparel/accessories etc</li>
+    </ul>
+              `;
+  loc9.innerHTML = `Mayne's Wishlist:`;
+  loc10.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+                    `;
+  loc11.innerHTML = `Carlos' Wishlist:`;
+  loc12.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+                    `;
+  loc13.innerHTML = `Carlos' Wishlist:`;
+  loc14.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+                          `;
+  loc15.innerHTML = `Mayne's Wishlist:`;
+  loc16.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+`;
+  loc17.innerHTML = `Carlos' Wishlist:`;
+  loc18.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+`;
+  loc19.innerHTML = `Carlos' Wishlist:`;
+  loc20.innerHTML = `
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+`;
 
   console.log(name);
 }
