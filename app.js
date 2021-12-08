@@ -80,9 +80,10 @@ function next(name) {
   loc5.innerHTML = `Carlos' Wishlist:`;
   loc6.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li><a href="https://www.winebid.com/BuyGiftCard/2435365">WineBid Gift Card</a></li>
+      <li><a href="https://www.wine-searcher.com/find/maguey+single+village+wild+papalome+st+pedro+teozacoalco+mezcal+mexico">Vida Mezcal Wild Papalome</a></li>
+      <li>Patagonia Jacket or Vest (Size M)</li>
+      <li>Cash me outside how bout that</li>
     </ul>
         `;
   loc7.innerHTML = `Jenna Sabra's Wishlist:`;
@@ -91,42 +92,42 @@ function next(name) {
       <li>Cashmere scarves</li>
       <li>Tarot Card deck</li>
       <li>Mala</li>
-      <li><Apparel/accessories etc</li>
+      <li>Apparel/accessories etc</li>
     </ul>
               `;
-  loc9.innerHTML = `Mayne's Wishlist:`;
+  loc9.innerHTML = `Rajee's Wishlist:`;
   loc10.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
+      <li><a href="https://www.amazon.com/dp/B08D39B6TB/ref=cm_sw_r_cp_api_glt_fabc_77T410NENC4DCKJAR5AZ?_encoding=UTF8&psc=1">Miracase 4-in-1 Cell Phone Holder</a></li>
       <li><a href=""></a></li>
       <li><a href=""></a></li>
     </ul>
                     `;
-  loc11.innerHTML = `Carlos' Wishlist:`;
+  loc11.innerHTML = `Chinky's Wishlist:`;
   loc12.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li><a href="https://atlascoffeeclub.com/collections/the-perfect-gift-for-any-coffee-lover/products/3-mo-gift?variant=5182231642151">Coffee Subscription Whole beans, light roast</a></li>
+      <li><a href="https://fellowproducts.com/products/carter-move-mug?variant=32992024199268">Fellow Carter Move Mug 12oz Corduroy Red</a></li>
       <li><a href=""></a></li>
     </ul>
                     `;
-  loc13.innerHTML = `Carlos' Wishlist:`;
+  loc13.innerHTML = `Pafau's Wishlist:`;
   loc14.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li>Warriors tickets (any game in Section 120-123; there are cheap ones in that section if the game against it is not with a famous team)</li>
+      <li>Anything you think i’ll like 🙂</li>
       <li><a href=""></a></li>
     </ul>
                           `;
-  loc15.innerHTML = `Mayne's Wishlist:`;
+  loc15.innerHTML = `Gelli's Wishlist:`;
   loc16.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li><a href="https://www.amazon.com/dp/B08FBMMZY7/ref=cm_sw_r_cp_api_glt_fabc_G2BDKSP8D2CWXADEPEYN?_encoding=UTF8&psc=1">Jackson Classic SoftSkate 380</a></li>
+      <li><a href="https://www.bestbuy.com/site/nintendo-switch-oled-model-w-white-joy-con-white/6470923.p?skuId=6470923">nintendo switch</a></li>
+      <li><a href="https://www.flightclub.com/air-jordan-11-retro-low-gs-concord-bred-528896-160">jordan retro size 6 youth</a></li>
     </ul>
 `;
-  loc17.innerHTML = `Carlos' Wishlist:`;
+  loc17.innerHTML = `No Name Wishlist:`;
   loc18.innerHTML = `
     <ul>
       <li><a href=""></a></li>
@@ -134,7 +135,7 @@ function next(name) {
       <li><a href=""></a></li>
     </ul>
 `;
-  loc19.innerHTML = `Carlos' Wishlist:`;
+  loc19.innerHTML = `No Name Wishlist:`;
   loc20.innerHTML = `
     <ul>
       <li><a href=""></a></li>
