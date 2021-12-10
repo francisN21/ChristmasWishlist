@@ -105,6 +105,7 @@ function next(name) {
   loc5.innerHTML = `Carlos' Wishlist:`;
   loc6.innerHTML = `
     <ul>
+    <li><a href="https://strawberry.af/password">black good juice hoodie M: Password: FREEHOOVER </a></li>
       <li><a href="https://www.winebid.com/BuyGiftCard/2435365">WineBid Gift Card</a></li>
       <li><a href="https://www.wine-searcher.com/find/maguey+single+village+wild+papalome+st+pedro+teozacoalco+mezcal+mexico">Vida Mezcal Wild Papalome</a></li>
       <li>Patagonia Jacket or Vest (Size M)</li>
