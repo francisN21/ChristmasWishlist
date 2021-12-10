@@ -147,7 +147,6 @@ function next(name) {
   loc15.innerHTML = `Gelli's Wishlist:`;
   loc16.innerHTML = `
     <ul>
-      <li><a href="https://www.amazon.com/dp/B08FBMMZY7/ref=cm_sw_r_cp_api_glt_fabc_G2BDKSP8D2CWXADEPEYN?_encoding=UTF8&psc=1">Jackson Classic SoftSkate 380</a></li>
       <li><a href="https://www.bestbuy.com/site/nintendo-switch-oled-model-w-white-joy-con-white/6470923.p?skuId=6470923">nintendo switch</a></li>
       <li><a href="https://www.flightclub.com/air-jordan-11-retro-low-gs-concord-bred-528896-160">jordan retro size 6 youth</a></li>
     </ul>
@@ -216,7 +215,7 @@ function next(name) {
     <li><a href="https://www.amazon.com/Nintendo-Joy-Neon-Red-Blue-switch/dp/B01N6QJ58Y/ref=sr_1_3?_encoding=UTF8&c=ts&keywords=Nintendo+Switch+Controllers&qid=1638987372&s=videogames&sr=1-3&ts_id=16329781011">Xtra Switch Joycons </a></li>
     <li><a href="https://www.bestbuy.com/site/microsoft-xbox-series-s-512-gb-all-digital-console-disc-free-gaming-white/6430277.p?skuId=6430277">Xbox </a></li>
     <li><a href="https://www.amazon.com/SAMSUNG-MZ-V8V1T0B-AM-980-SSD/dp/B08V83JZH4/ref=sr_1_5?keywords=ssd&qid=1638988048&sr=8-5">1TB SSD for laptop </a></li>
-    <li><a href="">Nintendo eShop Gift Card</a></li>
+    <li>Nintendo eShop Gift Card</a></li>
   </ul>
                   `;
   loc33.innerHTML = `'s Wishlist:`;
