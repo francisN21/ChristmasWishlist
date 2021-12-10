@@ -173,65 +173,68 @@ function next(name) {
     <li>anything you thing i whould like</li>
   </ul>
   `;
-  loc23.innerHTML = `Mayne's Wishlist:`;
+  loc23.innerHTML = `Rafael's Wishlist:`;
   loc24.innerHTML = `
   <ul>
-    <li>Amazon Gift Card</li>
-    <li><a href="https://www.drmartens.com/us/en/p/egift-cards?fbclid=IwAR1FGnX_qlOVtyG7vbqKdzKGn40Sp5zSG7LFBgSy29cOIL-oAsrZ67R9xkE">Dr Martens gift card</a></li>
-    <li><a href=""></a></li>
+    <li>Pokemon Cards</li>
+    <li>Anime Toy Chipped Katana</li>
+    <li>Electronic Dojo Battle</li>
+    <li>Anime naruto sasuske uchina action figure</li>
+    <li>toy pump action shotgun</li>
+    <li>battery car Lamborghini sian</li>
+    <li>Mandalorian Blaster</li>
   </ul>
       `;
-  loc25.innerHTML = `Carlos' Wishlist:`;
+  loc25.innerHTML = `Rowena's Wishlist:`;
   loc26.innerHTML = `
   <ul>
-    <li><a href="https://www.winebid.com/BuyGiftCard/2435365">WineBid Gift Card</a></li>
-    <li><a href="https://www.wine-searcher.com/find/maguey+single+village+wild+papalome+st+pedro+teozacoalco+mezcal+mexico">Vida Mezcal Wild Papalome</a></li>
-    <li>Patagonia Jacket or Vest (Size M)</li>
-    <li>Cash me outside how bout that</li>
+    <li>L-lysine Dietary Supliment</li>
+    <li>Magnesium Glycinate</li>
   </ul>
       `;
-  loc27.innerHTML = `Jenna Sabra's Wishlist:`;
+  loc27.innerHTML = `Juliana's Wishlist:`;
   loc28.innerHTML = `
   <ul>
-    <li>Cashmere scarves</li>
-    <li>Tarot Card deck</li>
-    <li>Mala</li>
-    <li>Apparel/accessories etc</li>
+  <li><a href="https://www.glossier.com/products/the-makeup-set-beauty-bag">glossier- The makeup set + beauty bag</a></li>
+  <li><a href="https://www.glowrecipe.com/collections/kits/products/glowipedia-glass-skin-kit">glow recipe - Glowipedia Glass Skin</a></li>
+  <li><a href=""></a></li>
   </ul>
             `;
-  loc29.innerHTML = `Rajee's Wishlist:`;
+  loc29.innerHTML = ` Wishlist:`;
   loc30.innerHTML = `
+
   <ul>
-    <li><a href="https://www.amazon.com/dp/B08D39B6TB/ref=cm_sw_r_cp_api_glt_fabc_77T410NENC4DCKJAR5AZ?_encoding=UTF8&psc=1">Miracase 4-in-1 Cell Phone Holder</a></li>
-    <li><a href="https://www.us-elitegear.com/collections/salomon/products/salomon-forces-sua-sponte-mark-iii">Solomonmon Forces 8.5 Size</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
+
                   `;
-  loc31.innerHTML = `Chinky's Wishlist:`;
+  loc31.innerHTML = `'s Wishlist:`;
   loc32.innerHTML = `
   <ul>
-    <li><a href="https://atlascoffeeclub.com/collections/the-perfect-gift-for-any-coffee-lover/products/3-mo-gift?variant=5182231642151">Coffee Subscription Whole beans, light roast</a></li>
-    <li><a href="https://fellowproducts.com/products/carter-move-mug?variant=32992024199268">Fellow Carter Move Mug 12oz Corduroy Red</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
                   `;
-  loc33.innerHTML = `Pafau's Wishlist:`;
+  loc33.innerHTML = `'s Wishlist:`;
   loc34.innerHTML = `
   <ul>
-    <li>Warriors tickets (any game in Section 120-123; there are cheap ones in that section if the game against it is not with a famous team)</li>
-    <li>Anything you think i’ll like 🙂</li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
                         `;
-  loc35.innerHTML = `Gelli's Wishlist:`;
+  loc35.innerHTML = ` Wishlist:`;
   loc36.innerHTML = `
   <ul>
-    <li><a href="https://www.amazon.com/dp/B08FBMMZY7/ref=cm_sw_r_cp_api_glt_fabc_G2BDKSP8D2CWXADEPEYN?_encoding=UTF8&psc=1">Jackson Classic SoftSkate 380</a></li>
-    <li><a href="https://www.bestbuy.com/site/nintendo-switch-oled-model-w-white-joy-con-white/6470923.p?skuId=6470923">nintendo switch</a></li>
-    <li><a href="https://www.flightclub.com/air-jordan-11-retro-low-gs-concord-bred-528896-160">jordan retro size 6 youth</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
   </ul>
 `;
-  loc37.innerHTML = `No Name Wishlist:`;
+  loc37.innerHTML = ` Wishlist:`;
   loc38.innerHTML = `
   <ul>
     <li><a href=""></a></li>
@@ -239,26 +242,26 @@ function next(name) {
     <li><a href=""></a></li>
   </ul>
 `;
-  loc39.innerHTML = `Mayet's Wishlist:`;
+  loc39.innerHTML = ` Wishlist:`;
   loc40.innerHTML = `
   <ul>
-    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
 `;
-  loc41.innerHTML = `Mayet's Wishlist:`;
+  loc41.innerHTML = ` Wishlist:`;
   loc42.innerHTML = `
   <ul>
-    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
 `;
-  loc43.innerHTML = `Mayet's Wishlist:`;
+  loc43.innerHTML = ` Wishlist:`;
   loc44.innerHTML = `
   <ul>
-    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
   </ul>
