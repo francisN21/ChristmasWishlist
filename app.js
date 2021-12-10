@@ -19,6 +19,30 @@ let loc17 = document.querySelector(".r2d17");
 let loc18 = document.querySelector(".r2d18");
 let loc19 = document.querySelector(".r2d19");
 let loc20 = document.querySelector(".r2d20");
+let loc21 = document.querySelector(".r2d21");
+let loc22 = document.querySelector(".r2d22");
+let loc23 = document.querySelector(".r2d23");
+let loc24 = document.querySelector(".r2d24");
+let loc25 = document.querySelector(".r2d25");
+let loc26 = document.querySelector(".r2d26");
+let loc27 = document.querySelector(".r2d27");
+let loc28 = document.querySelector(".r2d28");
+let loc29 = document.querySelector(".r2d29");
+let loc30 = document.querySelector(".r2d30");
+let loc31 = document.querySelector(".r2d31");
+let loc32 = document.querySelector(".r2d32");
+let loc33 = document.querySelector(".r2d33");
+let loc34 = document.querySelector(".r2d34");
+let loc35 = document.querySelector(".r2d35");
+let loc36 = document.querySelector(".r2d36");
+let loc37 = document.querySelector(".r2d37");
+let loc38 = document.querySelector(".r2d38");
+let loc39 = document.querySelector(".r2d39");
+let loc40 = document.querySelector(".r2d40");
+let loc41 = document.querySelector(".r2d41");
+let loc42 = document.querySelector(".r2d42");
+let loc43 = document.querySelector(".r2d43");
+let loc44 = document.querySelector(".r2d44");
 let cache = JSON.parse(localStorage.getItem("Name"));
 
 function welcome() {
@@ -128,21 +152,116 @@ function next(name) {
       <li><a href="https://www.flightclub.com/air-jordan-11-retro-low-gs-concord-bred-528896-160">jordan retro size 6 youth</a></li>
     </ul>
 `;
-  loc17.innerHTML = `No Name Wishlist:`;
+  loc17.innerHTML = `Charo's Wishlist:`;
   loc18.innerHTML = `
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li>Neutrogena body lotion or oil (light sesame formula)</li>
     </ul>
 `;
   loc19.innerHTML = `Mayet's Wishlist:`;
   loc20.innerHTML = `
     <ul>
       <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
     </ul>
+`;
+
+  loc21.innerHTML = `Ariana's Wishlist:`;
+  loc22.innerHTML = `
+  <ul>
+    <li>Chuck Taylor All star converse black (size 1.5)</li>
+    <li>Sunset lamp </li>
+    <li>anything you thing i whould like</li>
+  </ul>
+  `;
+  loc23.innerHTML = `Mayne's Wishlist:`;
+  loc24.innerHTML = `
+  <ul>
+    <li>Amazon Gift Card</li>
+    <li><a href="https://www.drmartens.com/us/en/p/egift-cards?fbclid=IwAR1FGnX_qlOVtyG7vbqKdzKGn40Sp5zSG7LFBgSy29cOIL-oAsrZ67R9xkE">Dr Martens gift card</a></li>
+    <li><a href=""></a></li>
+  </ul>
+      `;
+  loc25.innerHTML = `Carlos' Wishlist:`;
+  loc26.innerHTML = `
+  <ul>
+    <li><a href="https://www.winebid.com/BuyGiftCard/2435365">WineBid Gift Card</a></li>
+    <li><a href="https://www.wine-searcher.com/find/maguey+single+village+wild+papalome+st+pedro+teozacoalco+mezcal+mexico">Vida Mezcal Wild Papalome</a></li>
+    <li>Patagonia Jacket or Vest (Size M)</li>
+    <li>Cash me outside how bout that</li>
+  </ul>
+      `;
+  loc27.innerHTML = `Jenna Sabra's Wishlist:`;
+  loc28.innerHTML = `
+  <ul>
+    <li>Cashmere scarves</li>
+    <li>Tarot Card deck</li>
+    <li>Mala</li>
+    <li>Apparel/accessories etc</li>
+  </ul>
+            `;
+  loc29.innerHTML = `Rajee's Wishlist:`;
+  loc30.innerHTML = `
+  <ul>
+    <li><a href="https://www.amazon.com/dp/B08D39B6TB/ref=cm_sw_r_cp_api_glt_fabc_77T410NENC4DCKJAR5AZ?_encoding=UTF8&psc=1">Miracase 4-in-1 Cell Phone Holder</a></li>
+    <li><a href="https://www.us-elitegear.com/collections/salomon/products/salomon-forces-sua-sponte-mark-iii">Solomonmon Forces 8.5 Size</a></li>
+    <li><a href=""></a></li>
+  </ul>
+                  `;
+  loc31.innerHTML = `Chinky's Wishlist:`;
+  loc32.innerHTML = `
+  <ul>
+    <li><a href="https://atlascoffeeclub.com/collections/the-perfect-gift-for-any-coffee-lover/products/3-mo-gift?variant=5182231642151">Coffee Subscription Whole beans, light roast</a></li>
+    <li><a href="https://fellowproducts.com/products/carter-move-mug?variant=32992024199268">Fellow Carter Move Mug 12oz Corduroy Red</a></li>
+    <li><a href=""></a></li>
+  </ul>
+                  `;
+  loc33.innerHTML = `Pafau's Wishlist:`;
+  loc34.innerHTML = `
+  <ul>
+    <li>Warriors tickets (any game in Section 120-123; there are cheap ones in that section if the game against it is not with a famous team)</li>
+    <li>Anything you think i’ll like 🙂</li>
+    <li><a href=""></a></li>
+  </ul>
+                        `;
+  loc35.innerHTML = `Gelli's Wishlist:`;
+  loc36.innerHTML = `
+  <ul>
+    <li><a href="https://www.amazon.com/dp/B08FBMMZY7/ref=cm_sw_r_cp_api_glt_fabc_G2BDKSP8D2CWXADEPEYN?_encoding=UTF8&psc=1">Jackson Classic SoftSkate 380</a></li>
+    <li><a href="https://www.bestbuy.com/site/nintendo-switch-oled-model-w-white-joy-con-white/6470923.p?skuId=6470923">nintendo switch</a></li>
+    <li><a href="https://www.flightclub.com/air-jordan-11-retro-low-gs-concord-bred-528896-160">jordan retro size 6 youth</a></li>
+  </ul>
+`;
+  loc37.innerHTML = `No Name Wishlist:`;
+  loc38.innerHTML = `
+  <ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+`;
+  loc39.innerHTML = `Mayet's Wishlist:`;
+  loc40.innerHTML = `
+  <ul>
+    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+`;
+  loc41.innerHTML = `Mayet's Wishlist:`;
+  loc42.innerHTML = `
+  <ul>
+    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+`;
+  loc43.innerHTML = `Mayet's Wishlist:`;
+  loc44.innerHTML = `
+  <ul>
+    <li><a href="https://shop.lululemon.com/p/bags/All-Night-Festival-Bag-Micro/_/prod9960617">Mustard colored Bag</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
 `;
 
   console.log(name);
