@@ -200,15 +200,13 @@ function next(name) {
   <li><a href=""></a></li>
   </ul>
             `;
-  loc29.innerHTML = ` Wishlist:`;
+  loc29.innerHTML = `Nica's Wishlist:`;
   loc30.innerHTML = `
-
   <ul>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li>huda beauty power bullet matte lipstick board meeting </li>
+    <li>converse chuck taylor all star move black size 6.5</li>
+    <li><a href="https://smglobalshop.com/products/pre-order-aespa-the-1st-mini-album-savage-photobook-ver">aespa savage album </a></li>
   </ul>
-
                   `;
   loc31.innerHTML = `'s Wishlist:`;
   loc32.innerHTML = `
