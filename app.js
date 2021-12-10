@@ -208,12 +208,15 @@ function next(name) {
     <li><a href="https://smglobalshop.com/products/pre-order-aespa-the-1st-mini-album-savage-photobook-ver">aespa savage album </a></li>
   </ul>
                   `;
-  loc31.innerHTML = `'s Wishlist:`;
+  loc31.innerHTML = `Kriston's Wishlist:`;
   loc32.innerHTML = `
   <ul>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0/ref=sr_1_13?_encoding=UTF8&c=ts&keywords=Nintendo+Switch+Accessories&qid=1638986932&s=videogames&sr=1-13&ts_id=16227129011
+    https://www.bestbuy.com/site/pro-wireless-controller-for-nintendo-switch/5748618.p?skuId=5748618">Switch Pro Controller</a></li>
+    <li><a href="https://www.amazon.com/Nintendo-Joy-Neon-Red-Blue-switch/dp/B01N6QJ58Y/ref=sr_1_3?_encoding=UTF8&c=ts&keywords=Nintendo+Switch+Controllers&qid=1638987372&s=videogames&sr=1-3&ts_id=16329781011">Xtra Switch Joycons </a></li>
+    <li><a href="https://www.bestbuy.com/site/microsoft-xbox-series-s-512-gb-all-digital-console-disc-free-gaming-white/6430277.p?skuId=6430277">Xbox </a></li>
+    <li><a href="https://www.amazon.com/SAMSUNG-MZ-V8V1T0B-AM-980-SSD/dp/B08V83JZH4/ref=sr_1_5?keywords=ssd&qid=1638988048&sr=8-5">1TB SSD for laptop </a></li>
+    <li><a href="">Nintendo eShop Gift Card</a></li>
   </ul>
                   `;
   loc33.innerHTML = `'s Wishlist:`;
