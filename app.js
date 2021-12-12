@@ -197,7 +197,7 @@ function next(name) {
   <ul>
   <li><a href="https://www.glossier.com/products/the-makeup-set-beauty-bag">glossier- The makeup set + beauty bag</a></li>
   <li><a href="https://www.glowrecipe.com/collections/kits/products/glowipedia-glass-skin-kit">glow recipe - Glowipedia Glass Skin</a></li>
-  <li><a href=""></a></li>
+  <li><a href="https://www.ralphlauren.com/women-clothing-sweaters/cable-knit-v-neck-sweater/365662.html?dwvar365662_colorname=Cream&cgid=women-clothing-sweaters&webcat=women%2Fclothing%2FSweaters#webcat=women%257Cclothing%257CSweaters&start=1&cgid=women-clothing-sweaters">ralph lauren sweater xxs-s </a></li>
   </ul>
             `;
   loc29.innerHTML = `Nica's Wishlist:`;
