@@ -99,8 +99,8 @@ function next(name) {
     <ul>
       <li>Amazon Gift Card</li>
       <li><a href="https://www.drmartens.com/us/en/p/egift-cards?fbclid=IwAR1FGnX_qlOVtyG7vbqKdzKGn40Sp5zSG7LFBgSy29cOIL-oAsrZ67R9xkE">Dr Martens gift card</a></li>
-      <li><a href="https://www.amazon.com/LifeFair-Mounted-Standing-Bedroom-Aluminum/dp/B0936WFCV4/ref=sr_1_2_sspa?crid=37US7X9EG845M&keywords=mirror%2Bfull%2Blength&qid=1639287104&sprefix=mirror%2Caps%2C244&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN1lHVVU0VU0xWUlVJmVuY3J5cHRlZElkPUEwNzMwOTE4Mkk1TUVHU0U4RElQQSZlbmNyeXB0ZWRBZElkPUEwNjM0Nzg5MVpaT0k2RTlBSllNMiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&fbclid=IwAR2uOuLhy6N1h7Zho1mOzg6oJ_yVApiNh94e6wqotANMD9Y3b4TrBRV4JXI">Ship to 9405 S Eastern Ave, Apt 1003, Las Vegas, NV 89123 please. Thanks.</a></li>
-      <li>Anything you think I like</li>
+      <li><a href="https://www.amazon.com/LifeFair-Mounted-Standing-Bedroom-Aluminum/dp/B0936WFCV4/ref=sr_1_2_sspa?crid=37US7X9EG845M&keywords=mirror%2Bfull%2Blength&qid=1639287104&sprefix=mirror%2Caps%2C244&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN1lHVVU0VU0xWUlVJmVuY3J5cHRlZElkPUEwNzMwOTE4Mkk1TUVHU0U4RElQQSZlbmNyeXB0ZWRBZElkPUEwNjM0Nzg5MVpaT0k2RTlBSllNMiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&fbclid=IwAR2uOuLhy6N1h7Zho1mOzg6oJ_yVApiNh94e6wqotANMD9Y3b4TrBRV4JXI">This huge mirror. Ship to 9405 S Eastern Ave, Apt 1003, Las Vegas, NV 89123 please. Thanks.</a></li>
+      <li>Anything you think I'll like</li>
     </ul>
         `;
   loc5.innerHTML = `Carlos' Wishlist:`;
