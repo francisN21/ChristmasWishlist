@@ -100,13 +100,8 @@ function next(name) {
   loc1.innerHTML = `Niño's Wishlist:`;
   loc2.innerHTML = `
     <ul>
-      <li><a href="https://www.amazon.com/gp/product/B005JABN8Y/ref=ox_sc_act_title_5?smid=A2DQM1XJZE28BS&psc=1" target="_blank">Bandai Hobby Thousand Sunny Model Ship One Piece New World Version</a></li>
-      <li><a href="https://www.amazon.com/gp/product/B082TZ7R6W/ref=ox_sc_act_title_3?smid=A19KDY3KZZXO3B&psc=1" target="_blank">BanPresto One Piece King of Artist The Monkey.D.Luffy Figure ver.1</a></li>
-      <li>Please get me the whole collection: #1-5</li>
-      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSG2/ref=pd_sbs_21_1/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSG2&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">1: Bandai Hobby Mecha Collection #1 Chopper Robot Tank Model Kit</a></li>
-      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUSAS/ref=pd_sbs_21_2/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUSAS&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">2: Bandai Hobby Mecha Collection #2 Chopper Robot Wing Model Kit</a></li>
-      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUW90/ref=pd_sbs_21_3/132-0790933-8652941?_encoding=UTF8&pd_rd_i=B00IAGUW90&pd_rd_r=f5a83d8e-de2f-4438-95d1-f893274213ce&pd_rd_w=Lw7Za&pd_rd_wg=PLOSC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=Z4GTJM834FA4J2Z4A2AQ&psc=1&refRID=Z4GTJM834FA4J2Z4A2AQ" target="_blank">4: Bandai Hobby Mecha Collection #4 Chopper Robot Drill Model Kit</a></li>
-      <li><a href="https://www.amazon.com/Bandai-Hobby-Mecha-Collection-Chopper/dp/B00IAGUUBU/ref=sr_1_1?dchild=1&keywords=bandai+chopper+collection&qid=1607594064&sr=8-1" target="_blank">5: Bandai Hobby Mecha Collection #5 Chopper Robot Crane Model Kit</a></li>
+      <li><a href="https://www.z1motorsports.com/z1-products/z1-motorsports/z1-motorsports-350z-g35-aluminum-undershroud-p-12133.html?list_name=CategoryZ1Products&oid=12133%3A0%3A7%3A2&qid=d82b23db70ed5ffc93246a70738cfa09">Z1 Motorsports 350Z / G35 Aluminum Undershroud</a></li>
+      <li><a href="https://www.z1motorsports.com/z1-products/z1-motorsports/z1-upgraded-350z-hatch-struts-p-5336.html?list_name=Also+Purchased">Z1 Upgraded 350Z Hatch Struts</a></li>
       <li><a href="https://www.amazon.com/dp/B09111CM4X/ref=cm_sw_r_fm_api_glt_fabc_dl_QVB8NY61YSHNHR6AXWK2?fbclid=IwAR0lT47Mkshr12hDcwGZ4tAHXzTz22E0ThY5i60Erx9t24Q9dfnq8rpqZeM&th=1">Knife Set</a></li>
     </ul>
     `;
