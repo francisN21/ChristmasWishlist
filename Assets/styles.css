@@ -33,6 +33,7 @@ div {
 }
 /* c2 determins the values for the rows and columns  */
 .c2{
+    box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.75);
     background-color: #242526;
     border-radius: 10px;
     margin-bottom: 5px;
