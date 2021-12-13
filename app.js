@@ -43,6 +43,22 @@ let loc41 = document.querySelector(".r2d41");
 let loc42 = document.querySelector(".r2d42");
 let loc43 = document.querySelector(".r2d43");
 let loc44 = document.querySelector(".r2d44");
+let loc45 = document.querySelector(".r2d45");
+let loc46 = document.querySelector(".r2d46");
+let loc47 = document.querySelector(".r2d47");
+let loc48 = document.querySelector(".r2d48");
+let loc49 = document.querySelector(".r2d49");
+let loc50 = document.querySelector(".r2d50");
+let loc51 = document.querySelector(".r2d51");
+let loc52 = document.querySelector(".r2d52");
+let loc53 = document.querySelector(".r2d53");
+let loc54 = document.querySelector(".r2d54");
+let loc55 = document.querySelector(".r2d55");
+let loc56 = document.querySelector(".r2d56");
+let loc57 = document.querySelector(".r2d57");
+let loc58 = document.querySelector(".r2d58");
+let loc59 = document.querySelector(".r2d59");
+
 let cache = JSON.parse(localStorage.getItem("Name"));
 
 function welcome() {
@@ -247,7 +263,7 @@ function next(name) {
     <li>nike long socks</li>
   </ul>
 `;
-  loc39.innerHTML = `Jenna Nubla Wishlist:`;
+  loc39.innerHTML = `Jenna Nubla's Wishlist:`;
   loc40.innerHTML = `
   <ul>
     <li>woman's nike sweatshirt/sweatpants (M)</li>
@@ -255,21 +271,68 @@ function next(name) {
     <li>anything cool & pink</li>
   </ul>
 `;
-  loc41.innerHTML = ` Wishlist:`;
+  loc41.innerHTML = `Ninna's Wishlist:`;
   loc42.innerHTML = `
   <ul>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li>Counter topIce Maker Machine</li>
+    <li>Totang</li>
+    <li>Burp</li>
   </ul>
 `;
-  loc43.innerHTML = ` Wishlist:`;
+  loc43.innerHTML = `Nate's Wishlist:`;
   loc44.innerHTML = `
   <ul>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li>Nike Black Sweatpants Medium</li>
+    <li>Crocs Size 9</li>
+    <li>Cash</li>
+    <li>Anything you think I'd like</li>
   </ul>
+`;
+loc45.innerHTML = `Jason's Wishlist:`;
+loc46.innerHTML = `
+<ul>
+  <li>White t-shirt polo Ralph Lauren v-neck Medium size</li>
+</ul>
+`;
+loc47.innerHTML = ` Wishlist:`;
+loc48.innerHTML = `
+<ul>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+`;
+loc49.innerHTML = ` Wishlist:`;
+loc50.innerHTML = `
+<ul>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+`;
+loc51.innerHTML = ` Wishlist:`;
+loc52.innerHTML = `
+<ul>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+`;
+loc53.innerHTML = ` Wishlist:`;
+loc54.innerHTML = `
+<ul>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+`;
+loc55.innerHTML = ` Wishlist:`;
+loc56.innerHTML = `
+<ul>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
 `;
 
   console.log(name);
