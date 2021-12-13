@@ -296,12 +296,11 @@ loc48.innerHTML = `
 
 </ul>
 `;
-loc49.innerHTML = ` Wishlist:`;
+loc49.innerHTML = `Rowell's Wishlist:`;
 loc50.innerHTML = `
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li><a href="https://kaarigarhandicrafts.com/products/pure-copper-pitcher-set">Copper Pitcher Set</a></li>
+  <li><a href="https://kaarigarhandicrafts.com/products/copper-bottle">Copper Water Bottle</a></li>
 </ul>
 `;
 loc51.innerHTML = ` Wishlist:`;
