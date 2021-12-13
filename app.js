@@ -294,12 +294,11 @@ loc46.innerHTML = `
   <li>White t-shirt polo Ralph Lauren v-neck Medium size</li>
 </ul>
 `;
-loc47.innerHTML = ` Wishlist:`;
+loc47.innerHTML = `Lola Iska's Wishlist:`;
 loc48.innerHTML = `
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li>A very nice earrings /w diamond or any precious stone</li>
+
 </ul>
 `;
 loc49.innerHTML = ` Wishlist:`;
