@@ -318,20 +318,18 @@ loc50.innerHTML = `
   <li><a href="https://kaarigarhandicrafts.com/products/copper-bottle">Copper Water Bottle</a></li>
 </ul>
 `;
-loc51.innerHTML = ` Wishlist:`;
+loc51.innerHTML = `Karl's Wishlist:`;
 loc52.innerHTML = `
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li>esstac seven round shotgun card(12 gauge, with Velcro, wolf grey) x 3pack</li>
 </ul>
 `;
-loc53.innerHTML = ` Wishlist:`;
+loc53.innerHTML = `Amihan's Wishlist:`;
 loc54.innerHTML = `
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li>hatchimal fairy crocs: Size 7 kids: Color pink</li>
+  <li>Toys</li>
+  <li>Anything you want to buy for Amihan</li>
 </ul>
 `;
 loc55.innerHTML = ` Wishlist:`;
