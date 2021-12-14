@@ -1,4 +1,5 @@
-let notif = document.querySelector(".repo");
+let notif = document.querySelector(".main");
+let show = document.querySelectorAll(".hide-me");
 let loc1 = document.querySelector(".r2d1");
 let loc2 = document.querySelector(".r2d2");
 let loc3 = document.querySelector(".r2d3");
@@ -61,12 +62,21 @@ let loc59 = document.querySelector(".r2d59");
 
 let cache = JSON.parse(localStorage.getItem("Name"));
 
+
+
+const showAll = () =>{
+  for (let i = 0; i < show.length; i++) {
+    show[i].setAttribute("style", "visibility: visible;")
+  }
+}
 function welcome() {
+  
   let name = {
     Name: "",
   };
   if (cache) {
     next(cache);
+    
   } else {
     notif.innerHTML = `Welcome`;
     loc1.innerHTML = `What's your name?`;
@@ -83,19 +93,24 @@ function welcome() {
       if (name.Name === /[0-9]+/) {
         console.log(typeof name.Name);
         loc1.innerHTML = `Please enter name?`;
+        
       } else {
         name.Name = nameEl.value;
         console.log(typeof name.Name);
         localStorage.setItem("Name", JSON.stringify(nameEl.value));
         next(name.Name);
       }
+      
     });
   }
 }
 
 welcome();
 
+
+
 function next(name) {
+  showAll()
   notif.innerHTML = `Merry Christmas ${name}!`;
   loc1.innerHTML = `Niño's Wishlist:`;
   loc2.innerHTML = `
@@ -330,3 +345,5 @@ loc56.innerHTML = `
 
   console.log(name);
 }
+
+

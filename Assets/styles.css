@@ -26,6 +26,10 @@ input{
 div {
     word-wrap: break-word;
 }
+
+.hide-me{
+    visibility: hidden;
+}
 /* c1 contains the main column */
 .c1{
     margin-top: 45px;
