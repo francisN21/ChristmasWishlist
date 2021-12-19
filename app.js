@@ -62,21 +62,17 @@ let loc59 = document.querySelector(".r2d59");
 
 let cache = JSON.parse(localStorage.getItem("Name"));
 
-
-
-const showAll = () =>{
+const showAll = () => {
   for (let i = 0; i < show.length; i++) {
-    show[i].setAttribute("style", "visibility: visible;")
+    show[i].setAttribute("style", "visibility: visible;");
   }
-}
+};
 function welcome() {
-  
   let name = {
     Name: "",
   };
   if (cache) {
     next(cache);
-    
   } else {
     notif.innerHTML = `Welcome`;
     loc1.innerHTML = `What's your name?`;
@@ -93,24 +89,20 @@ function welcome() {
       if (name.Name === /[0-9]+/) {
         console.log(typeof name.Name);
         loc1.innerHTML = `Please enter name?`;
-        
       } else {
         name.Name = nameEl.value;
         console.log(typeof name.Name);
         localStorage.setItem("Name", JSON.stringify(nameEl.value));
         next(name.Name);
       }
-      
     });
   }
 }
 
 welcome();
 
-
-
 function next(name) {
-  showAll()
+  showAll();
   notif.innerHTML = `Merry Christmas ${name}!`;
   loc1.innerHTML = `Niño's Wishlist:`;
   loc2.innerHTML = `
@@ -298,50 +290,46 @@ function next(name) {
     <li>Anything you think I'd like</li>
   </ul>
 `;
-loc45.innerHTML = `Jason's Wishlist:`;
-loc46.innerHTML = `
+  loc45.innerHTML = `Jason's Wishlist:`;
+  loc46.innerHTML = `
 <ul>
   <li>White t-shirt polo Ralph Lauren v-neck Medium size</li>
 </ul>
 `;
-loc47.innerHTML = `Lola Iska's Wishlist:`;
-loc48.innerHTML = `
+  loc47.innerHTML = `Lola Iska's Wishlist:`;
+  loc48.innerHTML = `
 <ul>
   <li>A very nice earrings /w diamond or any precious stone</li>
-
 </ul>
 `;
-loc49.innerHTML = `Rowell's Wishlist:`;
-loc50.innerHTML = `
+  loc49.innerHTML = `Rowell's Wishlist:`;
+  loc50.innerHTML = `
 <ul>
   <li><a href="https://kaarigarhandicrafts.com/products/pure-copper-pitcher-set">Copper Pitcher Set</a></li>
   <li><a href="https://kaarigarhandicrafts.com/products/copper-bottle">Copper Water Bottle</a></li>
 </ul>
 `;
-loc51.innerHTML = `Karl's Wishlist:`;
-loc52.innerHTML = `
+  loc51.innerHTML = `Karl's Wishlist:`;
+  loc52.innerHTML = `
 <ul>
   <li>esstac seven round shotgun card(12 gauge, with Velcro, wolf grey) x 3pack</li>
 </ul>
 `;
-loc53.innerHTML = `Amihan's Wishlist:`;
-loc54.innerHTML = `
+  loc53.innerHTML = `Amihan's Wishlist:`;
+  loc54.innerHTML = `
 <ul>
   <li>hatchimal fairy crocs: Size 7 kids: Color pink</li>
   <li>Toys</li>
   <li>Anything you want to buy for Amihan</li>
 </ul>
 `;
-loc55.innerHTML = ` Wishlist:`;
-loc56.innerHTML = `
+  loc55.innerHTML = `Barbie's Wishlist:`;
+  loc56.innerHTML = `
 <ul>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li>Snow Pants Womens size Small</li>
+  <li>Anything you think I'd like</li>
 </ul>
 `;
 
   console.log(name);
 }
-
-
