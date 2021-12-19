@@ -331,5 +331,10 @@ function next(name) {
 </ul>
 `;
 
+  loc57.innerHTML = ``;
+  loc58.innerHTML = `
+
+`;
+
   console.log(name);
 }
